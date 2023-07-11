@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.container > .divHeader {
+  margin: 20px 0px;
+  text-align: center;
+  width: 700px;
+}
+
+.divHeader > h1 {
+  color: black;
+}
+
+.divSub {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+
+.divPrimea,
+.divDiscovery,
+.divKipAndKin {
+  padding: 30px;
+}
